@@ -3,25 +3,65 @@
 This project is a dashboard to draw some insights regarding infineon products. It is built using Pandas library while using Postgres to retrieve data from a infineon_product_data.csv. The dashboard is deployed on a web application using streamlit.
 
 
-## Features
+## Contents of Dashboard
 
-- View available hotel rooms.
-- Make a reservation.
-- Cancel a reservation.
-- View all reservations.
+**Product-Level Visualizations**
+- **Bar Chart**: Units produced vs. units sold for each product.
+- **Scatter Plot**: Unit cost (€) vs. units produced for each product.
+- **Pie Chart**: Distribution of product categories across all products.
+- **Line Chart**: Units produced over time (based on `production_date`).
+
+**Category-Level Visualizations**
+- **Stacked Bar Chart**: Units produced by product category and region.
+- **Pie Chart**: Proportion of units sold by product category.
+- **Treemap**: Hierarchical view of product categories and their respective units produced.
+
+**Region-Level Visualizations**
+- **Choropleth Map**: Units produced or sold by region (if geographical data is available).
+- **Pie Chart**: Product category distribution for each region.
+- **Bar Chart**: Total units produced or sold by region.
+
+**Industry-Level Visualizations**
+- **Bar Chart**: Units produced by industry.
+- **Pie Chart**: Distribution of industries across all products.
+- **Bubble Chart**: Industry vs. units produced, with bubble size representing unit cost.
+
+**Time-Based Visualizations**
+- **Line Chart**: Units produced or sold over time (based on `production_date`).
+- **Area Chart**: Cumulative units produced or sold over time.
+- **Heatmap**: Production activity by date and region.
+
+**Cost-Based Visualizations**
+    - **Histogram**: Distribution of unit costs (€) across all products.
+    - **Box Plot**: Unit cost (€) by product category or industry.
+    - **Scatter Plot**: Unit cost (€) vs. units sold.
+
+**Comparative Visualizations**
+    - **Dual-Axis Chart**: Units produced vs. units sold for each product.
+    - **Radar Chart**: Comparison of units produced, units sold, and unit cost for different product categories.
+    - **Grouped Bar Chart**: Units produced and units sold for each region.
+
+
+- Add filters for:
+  - Product category
+  - Region
+  - Industry
+  - Production date range
+  - Unit cost range
+
+
+
 
 ## Technologies Used
 
-- **Backend**: Flask (Python)
-- **Frontend**: VueJS (loaded via CDN), Tailwind CSS (via CDN)
-- **Data Storage**: Local JSON files
-
-## Prerequisites
+- **Development**: Python, Postgres
+- **Deployment & Interaction**: Streamlit
 
 Before you begin, ensure you have the following installed:
 
 - Python 3.x
 - pip3 (Python package installer)
+- These visualizations can be implemented using libraries like Plotly, Matplotlib, Searborn in Python
 
 ## Project Structure
 
@@ -82,11 +122,14 @@ infineon-copilot-workshop/
 
 4.  **Refresh Browser**: Refresh your browser page (`http://127.0.0.1:5000`) to see the frontend changes.
 
+<!-- 
 ## Usage
 
-- The homepage displays available hotel rooms.
-- Use the reservation form to book a room.
-- View and manage reservations through the "Reservations" page.
+If you have a web app, write how would you want the user to interact with the app:
+    - UI
+    - Options available for user to performa an actions
+
+ -->
 
 
 **Example `infineon_product_data.csv` structure:**
