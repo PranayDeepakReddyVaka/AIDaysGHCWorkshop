@@ -16,30 +16,6 @@ This project is a dashboard to draw some insights regarding infineon products. I
 - **Pie Chart**: Proportion of units sold by product category.
 - **Treemap**: Hierarchical view of product categories and their respective units produced.
 
-**Region-Level Visualizations**
-- **Choropleth Map**: Units produced or sold by region (if geographical data is available).
-- **Pie Chart**: Product category distribution for each region.
-- **Bar Chart**: Total units produced or sold by region.
-
-**Industry-Level Visualizations**
-- **Bar Chart**: Units produced by industry.
-- **Pie Chart**: Distribution of industries across all products.
-- **Bubble Chart**: Industry vs. units produced, with bubble size representing unit cost.
-
-**Time-Based Visualizations**
-- **Line Chart**: Units produced or sold over time (based on `production_date`).
-- **Area Chart**: Cumulative units produced or sold over time.
-- **Heatmap**: Production activity by date and region.
-
-**Cost-Based Visualizations**
-    - **Histogram**: Distribution of unit costs (€) across all products.
-    - **Box Plot**: Unit cost (€) by product category or industry.
-    - **Scatter Plot**: Unit cost (€) vs. units sold.
-
-**Comparative Visualizations**
-    - **Dual-Axis Chart**: Units produced vs. units sold for each product.
-    - **Radar Chart**: Comparison of units produced, units sold, and unit cost for different product categories.
-    - **Grouped Bar Chart**: Units produced and units sold for each region.
 
 
 - Add filters for:
@@ -77,6 +53,7 @@ infineon-copilot-workshop/
 ├── README.md                                   # Project documentation
 └── streamlit_app.py                            # Source code for the dashboard and deployment
 └── Changelog.md                                # Logs change history.
+
 ```
 
 ## Setup Instructions
@@ -108,7 +85,7 @@ infineon-copilot-workshop/
     ```
 
 4.  **Access the application**:
-    Open your browser and navigate to `http://127.0.0.1:5000`.
+    Open your browser and navigate to `http://localhost:8501` (Streamlit's default port).
 
 ## Deployment
 
@@ -118,9 +95,9 @@ infineon-copilot-workshop/
     # Ensure your virtual environment is active
     streamlit run dashboard.py
     ```
-    The backend will run on `http://127.0.0.1:5000` and automatically reload when backend Python files change.
+    The dashboard will run on `http://localhost:8501` and automatically reload when Python files change.
 
-4.  **Refresh Browser**: Refresh your browser page (`http://127.0.0.1:5000`) to see the frontend changes.
+4.  **View in Browser**: The Streamlit app will automatically open in your default browser. If not, navigate to `http://localhost:8501` manually.
 
 <!-- 
 ## Usage
