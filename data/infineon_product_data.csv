@@ -1,5 +1,4 @@
 product_id,product_name,product_category,industry,unit_cost (€),units_produced,region,production_date,units_sold
-
 P1001,AURIX™ TC3xx MCU,Processor,Healthcare,5.50,137,South America,2025-05-10,120
 P1002,CoolMOS™ C7,Memory Chip,Automotive,3.20,58,Middle East,2025-05-12,45
 P1003,XENSIV™ TLI4971 Current Sensor,Sensor,Consumer Electronics,2.75,142,Africa,2025-05-15,130
