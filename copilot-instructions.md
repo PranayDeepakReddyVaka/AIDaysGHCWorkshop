@@ -7,6 +7,7 @@
 - Check the code for vulnerabilities after generating.
 - Avoid hardcoding sensitive information like credentials or API keys.
 - Use secure coding practices and validate all inputs.
+- Use pytest or unittest for testing.
 
 ## Environment Variables
 - If a .env file exists, use it for local environment variables
@@ -26,11 +27,12 @@
 - Follow conventional commit message format
 - Update .gitignore for new build artifacts or dependencies
 - If .gitignore is not present, create one with the necessary entries
+- add venv folder to .gitignore
 
 ## Code Style
 - Follow existing project code style and conventions
 - Add type hints and docstrings for all new functions
-- Include comments to explain logic
+- Include comments to explain logic.
 
 ## Change Logging
 - Each time you generate code, note the changes in changelog.md
@@ -41,5 +43,4 @@
 - Include date and description of changes
 
 
-
-
+<!-- # Add restrictive instructions -->
