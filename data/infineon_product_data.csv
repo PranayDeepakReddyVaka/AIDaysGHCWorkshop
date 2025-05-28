@@ -1,101 +1,101 @@
 product_id,product_name,product_category,industry,unit_cost (€),units_produced,region,production_date,units_sold
-P1001,AURIX™ TC3xx MCU,Processor,Healthcare,5.50,137,South America,2025-05-10,120
-P1002,CoolMOS™ C7,Memory Chip,Automotive,3.20,58,Middle East,2025-05-12,45
-P1003,XENSIV™ TLI4971 Current Sensor,Sensor,Consumer Electronics,2.75,142,Africa,2025-05-15,130
-P1004,OPTIGA™ TPM Security Chip,Security IC,IoT,4.10,95,Asia-Pacific,2025-05-18,80
-P1005,AURIX™ TC4xx MCU,Microcontroller,Industrial,5.60,149,North America,2025-05-20,140
-P1006,CoolMOS™ C8,Power Semiconductor,Aerospace,3.30,123,Europe,2025-05-21,110
-P1007,XENSIV™ TLI4972 Current Sensor,Sensor,Healthcare,2.80,66,South America,2025-05-22,50
-P1008,OPTIGA™ TPM Security Module,Security IC,Automotive,4.20,138,Middle East,2025-05-23,120
-P1009,AURIX™ TC3xx Pro,Processor,Consumer Electronics,5.70,147,Africa,2025-05-24,130
-P1010,CoolMOS™ C9,Memory Chip,IoT,3.40,53,Asia-Pacific,2025-05-25,40
-P1011,XENSIV™ TLI4973 Current Sensor,Sensor,Industrial,2.85,144,North America,2025-05-26,130
-P1012,OPTIGA™ TPM Security Pro,Security IC,Aerospace,4.30,61,Europe,2025-05-27,50
-P1013,AURIX™ TC5xx MCU,Microcontroller,Healthcare,5.80,139,South America,2025-05-28,120
-P1014,CoolMOS™ C10,Power Semiconductor,Automotive,3.50,108,Middle East,2025-05-29,90
-P1015,XENSIV™ TLI4974 Current Sensor,Sensor,Consumer Electronics,2.90,109,Africa,2025-05-30,95
-P1016,OPTIGA™ TPM Security Advanced,Security IC,IoT,4.40,148,Asia-Pacific,2025-05-31,130
-P1017,AURIX™ TC6xx MCU,Processor,Industrial,5.90,110,North America,2025-06-01,100
-P1018,CoolMOS™ C11,Memory Chip,Aerospace,3.60,101,Europe,2025-06-02,90
-P1019,XENSIV™ TLI4975 Current Sensor,Sensor,Healthcare,2.95,140,South America,2025-06-03,120
-P1020,OPTIGA™ TPM Security Elite,Security IC,Automotive,4.50,149,Middle East,2025-06-04,130
-P1021,AURIX™ TC7xx MCU,Microcontroller,Consumer Electronics,6.00,108,Africa,2025-06-05,95
-P1022,CoolMOS™ C12,Power Semiconductor,IoT,3.70,53,Asia-Pacific,2025-06-06,40
-P1023,XENSIV™ TLI4976 Current Sensor,Sensor,Industrial,3.00,140,North America,2025-06-07,120
-P1024,OPTIGA™ TPM Security Ultimate,Security IC,Aerospace,4.60,61,Europe,2025-06-08,50
-P1025,AURIX™ TC8xx MCU,Processor,Healthcare,6.10,139,South America,2025-06-09,120
-P1026,CoolMOS™ C13,Memory Chip,Automotive,3.80,108,Middle East,2025-06-10,90
-P1027,XENSIV™ TLI4977 Current Sensor,Sensor,Consumer Electronics,3.05,109,Africa,2025-06-11,95
-P1028,OPTIGA™ TPM Security Supreme,Security IC,IoT,4.70,148,Asia-Pacific,2025-06-12,130
-P1029,AURIX™ TC9xx MCU,Microcontroller,Industrial,6.20,110,North America,2025-06-13,100
-P1030,CoolMOS™ C14,Power Semiconductor,Aerospace,3.90,101,Europe,2025-06-14,90
-P1031,XENSIV™ TLI4978 Current Sensor,Sensor,Healthcare,3.10,140,South America,2025-06-15,120
-P1032,OPTIGA™ TPM Security Prime,Security IC,Automotive,4.80,149,Middle East,2025-06-16,130
-P1033,AURIX™ TC10xx MCU,Processor,Consumer Electronics,6.30,108,Africa,2025-06-17,95
-P1034,CoolMOS™ C15,Memory Chip,IoT,4.00,53,Asia-Pacific,2025-06-18,40
-P1035,XENSIV™ TLI4979 Current Sensor,Sensor,Industrial,3.15,140,North America,2025-06-19,120
-P1036,OPTIGA™ TPM Security Master,Security IC,Aerospace,4.90,61,Europe,2025-06-20,50
-P1037,AURIX™ TC11xx MCU,Microcontroller,Healthcare,6.40,139,South America,2025-06-21,120
-P1038,CoolMOS™ C16,Power Semiconductor,Automotive,4.10,108,Middle East,2025-06-22,90
-P1039,XENSIV™ TLI4980 Current Sensor,Sensor,Consumer Electronics,3.20,109,Africa,2025-06-23,95
-P1040,OPTIGA™ TPM Security Grand,Security IC,IoT,5.00,148,Asia-Pacific,2025-06-24,130
-P1041,AURIX™ TC12xx MCU,Processor,Industrial,6.50,110,North America,2025-06-25,100
-P1042,CoolMOS™ C17,Memory Chip,Aerospace,4.20,101,Europe,2025-06-26,90
-P1043,XENSIV™ TLI4981 Current Sensor,Sensor,Healthcare,3.25,140,South America,2025-06-27,120
-P1044,OPTIGA™ TPM Security Ultimate Pro,Security IC,Automotive,5.10,149,Middle East,2025-06-28,130
-P1045,AURIX™ TC13xx MCU,Microcontroller,Consumer Electronics,6.60,108,Africa,2025-06-29,95
-P1046,CoolMOS™ C18,Power Semiconductor,IoT,4.30,53,Asia-Pacific,2025-06-30,40
-P1047,XENSIV™ TLI4982 Current Sensor,Sensor,Industrial,3.30,140,North America,2025-07-01,120
-P1048,OPTIGA™ TPM Security Elite Pro,Security IC,Aerospace,5.20,61,Europe,2025-07-02,50
-P1049,AURIX™ TC14xx MCU,Processor,Healthcare,6.70,139,South America,2025-07-03,120
-P1050,CoolMOS™ C19,Memory Chip,Automotive,4.40,108,Middle East,2025-07-04,90
-P1051,XENSIV™ TLI4983 Current Sensor,Sensor,Consumer Electronics,3.35,109,Africa,2025-07-05,95
-P1052,OPTIGA™ TPM Security Supreme Pro,Security IC,IoT,5.30,148,Asia-Pacific,2025-07-06,130
-P1053,AURIX™ TC15xx MCU,Microcontroller,Industrial,6.80,110,North America,2025-07-07,100
-P1054,CoolMOS™ C20,Power Semiconductor,Aerospace,4.50,101,Europe,2025-07-08,90
-P1055,XENSIV™ TLI4984 Current Sensor,Sensor,Healthcare,3.40,140,South America,2025-07-09,120
-P1056,OPTIGA™ TPM Security Prime Pro,Security IC,Automotive,5.40,149,Middle East,2025-07-10,130
-P1057,AURIX™ TC16xx MCU,Processor,Consumer Electronics,6.90,108,Africa,2025-07-11,95
-P1058,CoolMOS™ C21,Memory Chip,IoT,4.60,53,Asia-Pacific,2025-07-12,40
-P1059,XENSIV™ TLI4985 Current Sensor,Sensor,Industrial,3.45,140,North America,2025-07-13,120
-P1060,OPTIGA™ TPM Security Master Pro,Security IC,Aerospace,5.50,61,Europe,2025-07-14,50
-P1061,AURIX™ TC17xx MCU,Microcontroller,Healthcare,7.00,139,South America,2025-07-15,120
-P1062,CoolMOS™ C22,Power Semiconductor,Automotive,4.70,108,Middle East,2025-07-16,90
-P1063,XENSIV™ TLI4986 Current Sensor,Sensor,Consumer Electronics,3.50,109,Africa,2025-07-17,95
+P1001,AURIX™ TC39xXM (ADAS),Microcontroller,Automotive,5.50,137,South America,2025-05-10,120
+P1002,CoolMOS™ CE TO-220 FullPAK Wide Creepage 700V,MOSFET,Consumer Electronics,3.20,58,Middle East,2025-05-12,45
+P1003,XENSIV™ KP22x,Sensor,Automotive,2.75,142,Africa,2025-05-15,130
+P1004,OPTIGA™ SRF 55V10P,Security IC,IoT,4.10,95,Asia-Pacific,2025-05-18,80
+P1005,AURIX™ TC39xXA (ADAS),Microcontroller,Automotive,5.60,149,North America,2025-05-20,140
+P1006,CoolMOS™ CE SOT-223 650V,MOSFET,Consumer Electronics,3.30,123,Europe,2025-05-21,110
+P1007,XENSIV™ KP21x,Sensor,Automotive,2.80,66,South America,2025-05-22,50
+P1008,OPTIGA™ SRF 55V10P,Security IC,IoT,4.20,138,Middle East,2025-05-23,120
+P1009,AURIX™ TC38xQP,Microcontroller,Automotive,5.70,147,Africa,2025-05-24,130
+P1010,CoolMOS™ CE SOT-223 600V,MOSFET,Consumer Electronics,3.40,53,Asia-Pacific,2025-05-25,40
+P1011,XENSIV™ TLI493D-A2B6,Sensor,Industrial,2.85,144,North America,2025-05-26,130
+P1012,OPTIGA™ SRF 55V02P,Security IC,IoT,4.30,61,Europe,2025-05-27,50
+P1013,AURIX™ TC37xTx,Microcontroller,Automotive,5.80,139,South America,2025-05-28,120
+P1014,CoolMOS™ CE SOT-223 500V,MOSFET,Consumer Electronics,3.50,108,Middle East,2025-05-29,90
+P1015,XENSIV™ TLE498x,Sensor,Automotive,2.90,109,Africa,2025-05-30,95
+P1016,OPTIGA™ SRF 55V02P HC,Security IC,IoT,4.40,148,Asia-Pacific,2025-05-31,130
+P1017,AURIX™ TC37xTP,Microcontroller,Automotive,5.90,110,North America,2025-06-01,100
+P1018,CoolMOS™ CE TO-252 IPAK Short Lead 700V,MOSFET,Consumer Electronics,3.60,101,Europe,2025-06-02,90
+P1019,XENSIV™ TLE4997,Sensor,Industrial,2.95,140,South America,2025-06-03,120
+P1020,OPTIGA™ SRF 55V10P HC,Security IC,IoT,4.50,149,Middle East,2025-06-04,130
+P1021,AURIX™ TC36xDP,Microcontroller,Automotive,6.00,108,Africa,2025-06-05,95
+P1022,CoolMOS™ CE TO-252 IPAK Short Lead 650V,MOSFET,Consumer Electronics,3.70,53,Asia-Pacific,2025-06-06,40
+P1023,XENSIV™ TLE502,Sensor,Industrial,3.00,140,North America,2025-06-07,120
+P1024,OPTIGA™ SLE 66R01PN,Security IC,IoT,4.60,61,Europe,2025-06-08,50
+P1025,AURIX™ TC33xTA (ADAS),Microcontroller,Automotive,6.10,139,South America,2025-06-09,120
+P1026,CoolMOS™ CE TO-252 IPAK Short Lead 600V,MOSFET,Consumer Electronics,3.80,108,Middle East,2025-06-10,90
+P1027,XENSIV™ TLI427x,Sensor,Automotive,3.05,109,Africa,2025-06-11,95
+P1028,OPTIGA™ NFC4TC304,Security IC,IoT,4.70,148,Asia-Pacific,2025-06-12,130
+P1029,AURIX™ TC33xLP,Microcontroller,Automotive,6.20,110,North America,2025-06-13,100
+P1030,CoolMOS™ CE TO-251 IPAK 800V,MOSFET,Consumer Electronics,3.90,101,Europe,2025-06-14,90
+P1031,XENSIV™ TLE5309,Sensor,Industrial,3.10,140,South America,2025-06-15,120
+P1032,OPTIGA™ NFC4TC4K0,Security IC,IoT,4.80,149,Middle East,2025-06-16,130
+P1033,AURIX™ TC33xDA,Microcontroller,Automotive,6.30,108,Africa,2025-06-17,95
+P1034,CoolMOS™ CE TO-251 IPAK 600V,MOSFET,Consumer Electronics,4.00,53,Asia-Pacific,2025-06-18,40
+P1035,XENSIV™ TLx4997x,Sensor,Industrial,3.15,140,North America,2025-06-19,120
+P1036,OPTIGA™ NFC4TC1K0,Security IC,IoT,4.90,61,Europe,2025-06-20,50
+P1037,AURIX™ TC32xLP,Microcontroller,Automotive,6.40,139,South America,2025-06-21,120
+P1038,CoolMOS™ CE TO-251 IPAK 500V,MOSFET,Consumer Electronics,4.10,108,Middle East,2025-06-22,90
+P1039,XENSIV™ TLE5012,Sensor,Automotive,3.20,109,Africa,2025-06-23,95
+P1040,OPTIGA™ NFC4TC2K0,Security IC,IoT,5.00,148,Asia-Pacific,2025-06-24,130
+P1041,AURIX™ TC4Dx,Microcontroller,Automotive,6.50,110,North America,2025-06-25,100
+P1042,CoolMOS™ CE TO-252 DPAK 500V,MOSFET,Consumer Electronics,4.20,101,Europe,2025-06-26,90
+P1043,XENSIV™ TLE5014,Sensor,Automotive,3.25,140,South America,2025-06-27,120
+P1044,OPTIGA™ AUTHENTICATE ON,Security IC,IoT,5.10,149,Middle East,2025-06-28,130
+P1045,AURIX™ TC2xx Emulation devices MCU,Microcontroller,Automotive,6.60,108,Africa,2025-06-29,95
+P1046,CoolMOS™ CE TO-252 DPAK 600V,MOSFET,Consumer Electronics,4.30,53,Asia-Pacific,2025-06-30,40
+P1047,XENSIV™ TLx4998x,Sensor,Industrial,3.30,140,North America,2025-07-01,120
+P1048,OPTIGA™ AUTHENTICATE S,Security IC,IoT,5.20,61,Europe,2025-07-02,50
+P1049,AURIX™ TC29xTX,Microcontroller,Automotive,6.70,139,South America,2025-07-03,120
+P1050,CoolMOS™ CE TO-252 DPAK 650V,MOSFET,Consumer Electronics,4.40,108,Middle East,2025-07-04,90
+P1051,XENSIV™ KP466P,Sensor,Industrial,3.35,109,Africa,2025-07-05,95
+P1052,OPTIGA™ OC1230,Security IC,Consumer Electronics,5.30,148,Asia-Pacific,2025-07-06,130
+P1053,AURIX™ TC29xTT (ADAS),Microcontroller,Automotive,6.80,110,North America,2025-07-07,100
+P1054,CoolMOS™ CE TO-252 DPAK 700V,MOSFET,Consumer Electronics,4.50,101,Europe,2025-07-08,90
+P1055,XENSIV™ TLE5014,Sensor,Automotive,3.40,140,South America,2025-07-09,120
+P1056,OPTIGA™ OC1230,Security IC,Consumer Electronics,5.40,149,Middle East,2025-07-10,130
+P1057,AURIX™ TC29xT,Microcontroller,Automotive,6.90,108,Africa,2025-07-11,95
+P1058,CoolMOS™ CE TO-252 DPAK 800V,MOSFET,Consumer Electronics,4.60,53,Asia-Pacific,2025-07-12,40
+P1059,XENSIV™ TLE4972,Sensor,Industrial,3.45,140,North America,2025-07-13,120
+P1060,OPTIGA™ TPM SLB 9673 FW26,Security IC,Industrial,5.50,61,Europe,2025-07-14,50
+P1061,AURIX™ TC297TA (ADAS),Microcontroller,Automotive,7.00,139,South America,2025-07-15,120
+P1062,CoolMOS™ CE TO-220 FullPAK Wide Creepage,MOSFET,Consumer Electronics,4.70,108,Middle East,2025-07-16,90
+P1063,XENSIV™ KP467 (non RM)  ,Sensor,Automotive,3.50,109,Africa,2025-07-17,95
 P1064,OPTIGA™ TPM Security Grand Pro,Security IC,IoT,5.60,148,Asia-Pacific,2025-07-18,130
-P1065,AURIX™ TC18xx MCU,Processor,Industrial,7.10,110,North America,2025-07-19,100
-P1066,CoolMOS™ C23,Memory Chip,Aerospace,4.80,101,Europe,2025-07-20,90
-P1067,XENSIV™ TLI4987 Current Sensor,Sensor,Healthcare,3.55,140,South America,2025-07-21,120
-P1068,OPTIGA™ TPM Security Ultimate Elite,Security IC,Automotive,5.70,149,Middle East,2025-07-22,130
-P1069,AURIX™ TC19xx MCU,Microcontroller,Consumer Electronics,7.20,108,Africa,2025-07-23,95
-P1070,CoolMOS™ C24,Power Semiconductor,IoT,4.90,53,Asia-Pacific,2025-07-24,40
-P1071,XENSIV™ TLI4988 Current Sensor,Sensor,Industrial,3.60,140,North America,2025-07-25,120
-P1072,OPTIGA™ TPM Security Elite Ultimate,Security IC,Aerospace,5.80,61,Europe,2025-07-26,50
-P1073,AURIX™ TC20xx MCU,Processor,Healthcare,7.30,139,South America,2025-07-27,120
-P1074,CoolMOS™ C25,Memory Chip,Automotive,5.00,108,Middle East,2025-07-28,90
-P1075,XENSIV™ TLI4989 Current Sensor,Sensor,Consumer Electronics,3.65,109,Africa,2025-07-29,95
-P1076,OPTIGA™ TPM Security Supreme Elite,Security IC,IoT,5.90,148,Asia-Pacific,2025-07-30,130
-P1077,AURIX™ TC21xx MCU,Microcontroller,Industrial,7.40,110,North America,2025-07-31,100
-P1078,CoolMOS™ C26,Power Semiconductor,Aerospace,5.10,101,Europe,2025-08-01,90
-P1079,XENSIV™ TLI4990 Current Sensor,Sensor,Healthcare,3.70,140,South America,2025-08-02,120
-P1080,OPTIGA™ TPM Security Prime Elite,Security IC,Automotive,6.00,149,Middle East,2025-08-03,130
-P1081,AURIX™ TC22xx MCU,Processor,Consumer Electronics,7.50,108,Africa,2025-08-04,95
-P1082,CoolMOS™ C27,Memory Chip,IoT,5.20,53,Asia-Pacific,2025-08-05,40
-P1083,XENSIV™ TLI4991 Current Sensor,Sensor,Industrial,3.75,140,North America,2025-08-06,120
-P1084,OPTIGA™ TPM Security Master Elite,Security IC,Aerospace,6.10,61,Europe,2025-08-07,50
-P1085,AURIX™ TC23xx MCU,Microcontroller,Healthcare,7.60,139,South America,2025-08-08,120
-P1086,CoolMOS™ C28,Power Semiconductor,Automotive,5.30,108,Middle East,2025-08-09,90
-P1087,XENSIV™ TLI4992 Current Sensor,Sensor,Consumer Electronics,3.80,109,Africa,2025-08-10,95
-P1088,OPTIGA™ TPM Security Grand Elite,Security IC,IoT,6.20,148,Asia-Pacific,2025-08-11,130
-P1089,AURIX™ TC24xx MCU,Processor,Industrial,7.70,110,North America,2025-08-12,100
-P1090,CoolMOS™ C29,Memory Chip,Aerospace,5.40,101,Europe,2025-08-13,90
-P1091,XENSIV™ TLI4993 Current Sensor,Sensor,Healthcare,3.85,140,South America,2025-08-14,120
-P1092,OPTIGA™ TPM Security Ultimate Master,Security IC,Automotive,6.30,149,Middle East,2025-08-15,130
-P1093,AURIX™ TC25xx MCU,Microcontroller,Consumer Electronics,7.80,108,Africa,2025-08-16,95
-P1094,CoolMOS™ C30,Power Semiconductor,IoT,5.50,53,Asia-Pacific,2025-08-17,40
-P1095,XENSIV™ TLI4994 Current Sensor,Sensor,Industrial,3.90,140,North America,2025-08-18,120
-P1096,OPTIGA™ TPM Security Elite Master,Security IC,Aerospace,6.40,61,Europe,2025-08-19,50
-P1097,AURIX™ TC26xx MCU,Processor,Healthcare,7.90,139,South America,2025-08-20,120
-P1098,CoolMOS™ C31,Memory Chip,Automotive,5.60,108,Middle East,2025-08-21,90
-P1099,XENSIV™ TLI4995 Current Sensor,Sensor,Consumer Electronics,3.95,109,Africa,2025-08-22,95
-P1100,OPTIGA™ TPM Security Supreme Master,Security IC,IoT,6.50,148,Asia-Pacific,2025-08-23,130
+P1065,AURIX™ TC27xT,Microcontroller,Automotive,7.10,110,North America,2025-07-19,100
+P1066,CoolMOS™ CE TO-220 FullPAK Narrow Lead 650V,MOSFET,Consumer Electronics,4.80,101,Europe,2025-07-20,90
+P1067,XENSIV™ TLE4971  ,Sensor,Industrial,3.55,140,South America,2025-07-21,120
+P1068,OPTIGA™ TPM SLB 9672 FW16,Security IC,Industrial,5.70,149,Middle East,2025-07-22,130
+P1069,AURIX™ TC264DA (ADAS),Microcontroller,Automotive,7.20,108,Africa,2025-07-23,95
+P1070,CoolMOS™ CE TO-220 FullPAK Narrow Lead 600V,MOSFET,Consumer Electronics,4.90,53,Asia-Pacific,2025-07-24,40
+P1071,XENSIV™ TLI4971,Sensor,Industrial,3.60,140,North America,2025-07-25,120
+P1072,OPTIGA™ TPM SLB 9672 FW15,Security IC,Industrial,5.80,61,Europe,2025-07-26,50
+P1073,AURIX™ TC26xD,Microcontroller,Automotive,7.30,139,South America,2025-07-27,120
+P1074,CoolMOS™ CE TO-220 FullPAK Narrow Lead 500V,MOSFET,Consumer Electronics,5.00,108,Middle East,2025-07-28,90
+P1075,XENSIV™ TLE5309,Sensor,Automotive,3.65,109,Africa,2025-07-29,95
+P1076,OPTIGA™ TRUST CHARGE,Security IC,Consumer Electronics,5.90,148,Asia-Pacific,2025-07-30,130
+P1077,AURIX™ TC23xL,Microcontroller,Automotive,7.40,110,North America,2025-07-31,100
+P1078,CoolMOS™ CE TO-220 500V,MOSFET,Consumer Electronics,5.10,101,Europe,2025-08-01,90
+P1079,XENSIV™ TLI499x,Sensor,Industrial,3.70,140,South America,2025-08-02,120
+P1080,OPTIGA™ TRUST CHARGE AUTO,Security IC,Automotive,6.00,149,Middle East,2025-08-03,130
+P1081,AURIX™ TC22xL,Microcontroller,Automotive,7.50,108,Africa,2025-08-04,95
+P1082,CoolMOS™ CE TO-220 FullPAK 500V,MOSFET,Consumer Electronics,5.20,53,Asia-Pacific,2025-08-05,40
+P1083,XENSIV™ TLI499x,Sensor,Industrial,3.75,140,North America,2025-08-06,120
+P1084,OPTIGA™ TRUST B SLE 95250,Security IC,Aerospace,6.10,61,Europe,2025-08-07,50
+P1085,AURIX™ TC21xC,Microcontroller,Automotive,7.60,139,South America,2025-08-08,120
+P1086,CoolMOS™ CE TO-220 FullPAK 600V,MOSFET,Consumer Electronics,5.30,108,Middle East,2025-08-09,90
+P1087,XENSIV™ TLE4997,Sensor,Automotive,3.80,109,Africa,2025-08-10,95
+P1088,OPTIGA™ TRUST X SLS 32AIA,Security IC,IoT,6.20,148,Asia-Pacific,2025-08-11,130
+P1089,AURIX™ TC21xL,Microcontroller,Automotive,7.70,110,North America,2025-08-12,100
+P1090,CoolMOS™ CE TO-220 FullPAK 650V,MOSFET,Consumer Electronics,5.40,101,Europe,2025-08-13,90
+P1091,XENSIV™ TLx4964-x,Sensor,Automotive,3.85,140,South America,2025-08-14,120
+P1092,OPTIGA™ TRUST M EXPRESS,Security IC,Automotive,6.30,149,Middle East,2025-08-15,130
+P1093,AURIX™ TC23xLX,Microcontroller,Automotive,7.80,108,Africa,2025-08-16,95
+P1094,CoolMOS™ CE TO-220 FullPAK 700V,MOSFET,Consumer Electronics,5.50,53,Asia-Pacific,2025-08-17,40
+P1095,XENSIV™ TLE499x,Sensor,Industrial,3.90,140,North America,2025-08-18,120
+P1096,OPTIGA™ TRUST M MTR,Security IC,Aerospace,6.40,61,Europe,2025-08-19,50
+P1097,AURIX™ TC23xLA (ADAS),Microcontroller,Automotive,7.90,139,South America,2025-08-20,120
+P1098,CoolMOS™ CE TO-220 FullPAK 800V,MOSFET,Consumer Electronics,5.60,108,Middle East,2025-08-21,90
+P1099,XENSIV™ TLx493D-x2Bx,Sensor,Industrial,3.95,109,Africa,2025-08-22,95
+P1100,OPTIGA™ TRUST M SLS32AIA,Security IC,IoT,6.50,148,Asia-Pacific,2025-08-23,130
