@@ -1,120 +1,85 @@
-# Travel Reservations App
+# GitHub Copilot Hands-On: Ft. Agent Mode 
 
-This project is a dashboard to draw some insights regarding infineon products. It is built using Pandas library while using Postgres to retrieve data from a infineon_product_data.csv. The dashboard is deployed on a web application using streamlit.
+Welcome to the **GitHub Copilot Agent Mode** hands-on workshop, where we code less, vibe more!  
+You bring the ideas, and Copilot brings them to life. 
 
+![Copilot Agent Mode](pictures/images.jfif)
 
-## Contents of Dashboard
+---
 
-**Product-Level Visualizations**
-- **Bar Chart**: Units produced vs. units sold for each product.
-- **Scatter Plot**: Unit cost (€) vs. units produced for each product.
-- **Pie Chart**: Distribution of product categories across all products.
-- **Line Chart**: Units produced over time (based on `production_date`).
+### 🤖 What We'll Build
 
-**Category-Level Visualizations**
-- **Stacked Bar Chart**: Units produced by product category and region.
-- **Pie Chart**: Proportion of units sold by product category.
-- **Treemap**: Hierarchical view of product categories and their respective units produced.
+We’ll design a **dynamic dashboard** to visualize Infineon’s product and sales data (already available in the `data/` folder as a CSV file).
 
+Here’s your mission:
+- Explore the data to understand what’s possible.
+- Choose your favorite frameworks (Streamlit, Dash, etc.) for building the dashboard. It's your call.
+- Share your dashboard vision: describe your idea in words, share a mockup, or even a hand-drawn doodle!
+- Let Copilot Agent Mode handle the implementation
 
+---
 
-- Add filters for:
-  - Product category
-  - Region
-  - Industry
-  - Production date range
-  - Unit cost range
+### 📄 Project Requirements Document (PRD)
 
+You *could* just ask Copilot:  
+> "Hey, here’s my data. Can you make some cool visualizations?"
 
+But you often want more control like choosing the framework, setting the layout, or picking a certain style, so it’s best to give Copilot a clear description of what you want.  
+That’s where the **Project Requirements Document** (PRD) comes in!
 
+Check out `PRD.md` in this repo. It’s your starting point with info on:
+- Framework choices
+- Directory structure
+- Dashboard component descriptions
 
-## Technologies Used
+By providing a PRD, you empower Copilot (especially in Agent Mode) to build end-to-end applications that match your vision. The more details you give, the better Copilot can deliver exactly what you want.
 
-- **Development**: Python, Postgres
-- **Deployment & Interaction**: Streamlit
+## 🛠️ Hands-On: Part 1 - Build Your Dashboard with Copilot Agent Mode
 
-Before you begin, ensure you have the following installed:
+- The PRD is pre-populated, but there are **TODOs for you to fill in**.
+- We’ve provided sample descriptions, but eventually **YOU** decide how your dashboard should look!
+- Don’t stop at the PRD. You can also give Copilot some **visual input** to inspire it. This could be:
+  - 🎨 A color palette that matches your brand (the Infineon brand palette can be found in the pictures folder)
+  - 🖼️ Screenshots of dashboards you love
+  - ✏️ A (hand-drawn) doodle that captures your idea?
 
-- Python 3.x
-- pip3 (Python package installer)
-- These visualizations can be implemented using libraries like Plotly, Matplotlib, Searborn in Python
+### Let’s Build Step by Step
 
-## Project Structure
+1. **Personalize Your PRD:**  
+   Open `PRD.md` and fill in the details. Make it as detailed as you want.
 
-```
-infineon-copilot-workshop/
-├── data/                                       # contains data related to dashboard
-│   └── infineon_product_data.csv               # contains product data
-├── images/                                     # relevant images to understand how the dashboard should look like
-│   └── dashboard_mockup_1.png                  # Mockup idea on how the dashboard should look like
-│   └── dashboard_mockup_2.png                  # Mockup idea on how the dashboard should look like
-│   └── Colour_palette.png                      # Recommended colours (reflects company theme)
-├── requirements.txt                            # Python dependencies
-├── README.md                                   # Project documentation
-└── streamlit_app.py                            # Source code for the dashboard and deployment
-└── Changelog.md                                # Logs change history.
+2. **Activate Agent Mode:**  
+   In Copilot, switch to Agent Mode. Give it your finished PRD and simply ask:  
+   > "Please implement this" (we stay polite, right? 😉)
 
-```
+   Most of the instructions are already in your PRD, so you don’t need a fancy prompt.
 
-## Setup Instructions
+3. **Watch Agent Mode in Action:**  
+   Copilot will build your dashboard. Review what it creates, play around, and don’t be shy to ask for tweaks or changes until it’s just right!
 
-1.  **Clone the repository**:
-    ```bash
-    git clone <repository-url>
-    cd project-root
-    ```
+4. **Show Off Your Work:**  
+   Once you’re happy, launch your dashboard and share it with the group!
 
-2.  **Set up Python Virtual Environment & Install Backend Dependencies**:
-    ```bash
-    # Set up Python virtual environment (recommended)
-    python -m venv venv
-    On Windows use `venv\Scripts\activate`
+---
 
-    # Install Python dependencies
-    pip install -r requirements.txt
+## 🤖 Copilot Modes Explained
 
-    # Add a requirements.txt file
-    pip freeze > requirements.txt
-    ```
+| Mode        | Who’s in Control? | What Can Copilot Do? |
+|-------------|-------------------|----------------------|
+| **Ask**     | You               | Copilot suggests, you decide what to apply. No code changes unless you act. |
+| **Edit**    | You (with help)   | Copilot edits your code inline, shows a diff, but you approve every change. Only affects files you specify. |
+| **Agent**   | Copilot (with your approval) | Copilot can create, edit, delete files across the workspace, run terminal commands, and more. You approve actions step-by-step or at the end. |
 
+> **Agent Mode** is like having a supercharged AI teammate. You just need to guide it a bit!
 
-3.  **Run the Application**:
-    ```bash
-    # Ensure your virtual environment is active
-    streamlit run dashboard.py
-    ```
+---
 
-4.  **Access the application**:
-    Open your browser and navigate to `http://localhost:8501` (Streamlit's default port).
+## 🛠️ Hands-On: Part 2 - MCP with Agent Mode
 
-## Deployment
+MCP: todo
+
+## 🛠️ Hands-On: Part 3 - Custom Instructions
 
 
-1.  **Run the below command to run the dashboard on local host**:
-    ```bash
-    # Ensure your virtual environment is active
-    streamlit run dashboard.py
-    ```
-    The dashboard will run on `http://localhost:8501` and automatically reload when Python files change.
 
-4.  **View in Browser**: The Streamlit app will automatically open in your default browser. If not, navigate to `http://localhost:8501` manually.
-
-<!-- 
-## Usage
-
-If you have a web app, write how would you want the user to interact with the app:
-    - UI
-    - Options available for user to performa an actions
-
- -->
-
-
-**Example `infineon_product_data.csv` structure:**
-
-```csv
-product_id,product_name,product_category,industry,unit_cost (€),units_produced,region,production_date,units_sold
-P1001,AURIX™ TC3xx MCU,Processor,Healthcare,5.50,137,South America,2025-05-10,120
-P1002,CoolMOS™ C7,Memory Chip,Automotive,3.20,58,Middle East,2025-05-12,45
-P1003,XENSIV™ TLI4971 Current Sensor,Sensor,Consumer Electronics,2.75,142,Africa,2025-05-15,130
-P1004,OPTIGA™ TPM Security Chip,Security IC,IoT,4.10,95,Asia-Pacific,2025-05-18,80
-```
+---

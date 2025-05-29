@@ -12,6 +12,7 @@ env.bak/
 venv.bak/
 
 # Jupyter Notebook checkpoints
+notebooks/
 .ipynb_checkpoints
 
 # Streamlit cache
