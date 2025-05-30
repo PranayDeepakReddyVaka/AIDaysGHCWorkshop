@@ -21,7 +21,7 @@ All project dependencies must be managed using a `requirements.txt` file. Use Py
 Our Infineon product data is stored in the data folder as a CSV file named `infineon_product_data.csv`. The data includes the following columns:
 
 ```
-product_name, product_family, product_category, tags, applications, url, image_url, price, region, units_sold, production_date
+product_name, product_family, product_category, tags, applications, url, image_url, price, region, units_sold, date
 ```
 An example row might look like this:
 
@@ -57,7 +57,7 @@ The dashboard should focus on **geographical sales insights** and match the foll
   - Filters:
     - Region (dropdown)
     - Product Category (dropdown)
-    - Production Date Range (date picker)
+    - Date Range (date picker)
 - **Main Area (Light Mode):**
   - **Header:** "Infineon Sales & Revenue Dashboard"
   - **KPI Cards:**
