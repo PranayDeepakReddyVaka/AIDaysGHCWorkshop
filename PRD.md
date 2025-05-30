@@ -26,7 +26,7 @@ product_name, product_family, product_category, tags, applications, url, image_u
 An example row might look like this:
 
 ```
-XENSIV™ BGT60ATR24C\tXENSIV™\tSensor\tXENSIV™,60GHz radar sensors for automotive\tAutomotive\thttps://www.infineon.com/cms/en/product/sensor/radar-sensors/radar-sensors-for-automotive/60ghz-radar/bgt60atr24c/\thttps://www.infineon.com/export/sites/default/media/products/Sensors/PG-VFWLB-76-1-web.png_11474957.png\t$25.92 \tSouth America\t40\t1/27/2025
+XENSIV™ BGT60ATR24C,XENSIV™,Sensor,"XENSIV™,60GHz radar sensors for automotive",Automotive,https://www.infineon.com/cms/en/product/sensor/radar-sensors/radar-sensors-for-automotive/60ghz-radar/bgt60atr24c/,https://www.infineon.com/export/sites/default/media/products/Sensors/PG-VFWLB-76-1-web.png_11474957.png,$25.92,South America,40,1/27/2025
 ```
 
 ## Directory Structure
