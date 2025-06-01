@@ -91,11 +91,13 @@ MCP servers act as bridges between AI models and external data sources or tools.
 - **Postgres MCP Server:** Connects to a PostgreSQL database, allowing AI models to query and interact with structured data stored in Postgres.
 - **Custom Servers:** Developers can create custom MCP servers to connect proprietary systems or specialized data sources to AI models.
 
+You can browse a growing list of available MCP servers at [mcp.so](https://mcp.so). Note that while some servers are officially managed, others are community-driven or experimental.
+
 ### Hands-On: Implementing GitHub Issues with MCP
 
 In this exercise, we'll use the GitHub MCP Server to retrieve issues from our repository and have Copilot's Agent Mode implement one of them.
 
-> **Note:** You can run an MCP server locally (using Docker, stdio, or npm) or connect to a remote one. Local setup requires a GitHub token and some configuration. For this workshop, we’ll use a pre-configured GitHub MCP Server endpoint.
+> **Note:** You can run an MCP server locally (using Docker, stdio, or npm) or connect to a remote one. Local setup requires a GitHub token and some configuration. For this workshop, we’ll use a pre-configured remote endpoint for a GitHub MCP Server.
 
 ### Let’s Explore Step by Step
 1. **Add the MCP Server in VS Code:**
@@ -111,7 +113,9 @@ In this exercise, we'll use the GitHub MCP Server to retrieve issues from our re
 3. **Ask Questions in Agent Mode:**
    - Switch to Agent Mode in Copilot.
    - Ask questions or request actions related to GitHub, like:
-     > "What issues are open in this repository?"
+   > "Can you list all open issues in this repository?"
+
+   *Hint: For the agent to construct the correct tool call, give it the repository url or owner name*
 4. **Implement an Issue:**
    - Copilot will respond with a list of open issues.
    - Choose one to implement, for example:
