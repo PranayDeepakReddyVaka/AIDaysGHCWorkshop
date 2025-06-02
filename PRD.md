@@ -21,12 +21,12 @@ All project dependencies must be managed using a `requirements.txt` file. Use Py
 Our Infineon product data is stored in the data folder as a CSV file named `infineon_product_data.csv`. The data includes the following columns:
 
 ```
-product_name, product_family, product_category, tags, applications, url, image_url, price, region, units_sold, production_date
+product_name, product_family, product_category, tags, applications, url, image_url, price, region, units_sold, date
 ```
 An example row might look like this:
 
 ```
-XENSIV™ BGT60ATR24C\tXENSIV™\tSensor\tXENSIV™,60GHz radar sensors for automotive\tAutomotive\thttps://www.infineon.com/cms/en/product/sensor/radar-sensors/radar-sensors-for-automotive/60ghz-radar/bgt60atr24c/\thttps://www.infineon.com/export/sites/default/media/products/Sensors/PG-VFWLB-76-1-web.png_11474957.png\t$25.92 \tSouth America\t40\t1/27/2025
+XENSIV™ BGT60ATR24C,XENSIV™,Sensor,"XENSIV™,60GHz radar sensors for automotive",Automotive,https://www.infineon.com/cms/en/product/sensor/radar-sensors/radar-sensors-for-automotive/60ghz-radar/bgt60atr24c/,https://www.infineon.com/export/sites/default/media/products/Sensors/PG-VFWLB-76-1-web.png_11474957.png,$25.92,South America,40,1/27/2025
 ```
 
 ## Directory Structure
@@ -57,7 +57,7 @@ The dashboard should focus on **geographical sales insights** and match the foll
   - Filters:
     - Region (dropdown)
     - Product Category (dropdown)
-    - Production Date Range (date picker)
+    - Date Range (date picker)
 - **Main Area (Light Mode):**
   - **Header:** "Infineon Sales & Revenue Dashboard"
   - **KPI Cards:**
